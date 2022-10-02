@@ -1,0 +1,2 @@
+RpcProviderFilter=com.github.acticfox.service.filter.RpcProviderFilter
+RpcConsumerFilter=com.github.acticfox.service.filter.RpcConsumerFilter
