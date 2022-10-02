@@ -2,7 +2,6 @@
 ## **概述**
 service-filter组件主要提供了Dubbo service的参数校验、异常拦截器以及提供了trace log生成。
 
-代码库地址：<https://git.zhichubao.com/base-framework/service-filter.git>
 ## **使用说明**
 ### **1.添加maven二方库**
 
