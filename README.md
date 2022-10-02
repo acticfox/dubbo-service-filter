@@ -5,7 +5,7 @@ service-filter组件主要提供了Dubbo service的参数校验、异常拦截�
 ## **使用说明**
 ### **1.添加maven二方库**
 
-|<dependency><br>`    `<groupId>com.zhichubao.shared</groupId><br>`    `<artifactId>service-filter</artifactId><br>`    `<version>1.0.0-SNAPSHOT</version><br></dependency>|
+|<dependency><br>`    `<groupId>com.github.acticfox</groupId><br>`    `<artifactId>service-filter</artifactId><br>`    `<version>1.0.0-SNAPSHOT</version><br></dependency>|
 | :- |
 
 ### **2.application.properties修改**
