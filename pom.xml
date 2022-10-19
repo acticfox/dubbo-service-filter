@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>service-filter</artifactId>
-	
+
 	<parent>
 		<groupId>io.github.acticfox</groupId>
 		<artifactId>super-pom</artifactId>
@@ -44,6 +45,11 @@
 			<version>2021.1</version>
 		</dependency>
 		<dependency>
+			<groupId>org.apache.dubbo</groupId>
+			<artifactId>dubbo</artifactId>
+			<version>2.7.8</version>
+		</dependency>
+		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 		</dependency>
@@ -51,7 +57,6 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aop</artifactId>
 			<version>${spring.version}</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -65,10 +70,10 @@
 			<version>${spring.version}</version>
 		</dependency>
 		<dependency>
-            <groupId>org.apache.skywalking</groupId>
-            <artifactId>apm-toolkit-trace</artifactId>
-            <version>8.11.0</version>
-        </dependency>
+			<groupId>org.apache.skywalking</groupId>
+			<artifactId>apm-toolkit-trace</artifactId>
+			<version>8.11.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
